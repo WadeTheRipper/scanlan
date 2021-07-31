@@ -4,4 +4,4 @@ Just make sure you have Nmap installed on the system (Ignore, you pentesters!)
 
 How to Use?
 
->> python3 scanlan.py
+>>python3 scanlan.py
