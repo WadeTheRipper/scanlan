@@ -6,7 +6,7 @@ import socket
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 s.connect(("8.8.8.8", 80))
 ip_addr = s.getsockname()[0]
-print(ip_addr)
+print(ip_addr)    #shows your ip address in the current network
 ip = list(ip_addr.split("."))
 ip.pop()
 new_ip = ".".join(ip)
