@@ -11,11 +11,12 @@ ip = list(ip_addr.split("."))
 ip.pop()
 new_ip = ".".join(ip)
 final= new_ip + ".1/24"
-#print(final)
+
+#scan phase
 os.system("nmap "+ final)
 s.close()
 
-#scan block
+
 
 
 
